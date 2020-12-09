@@ -9,7 +9,7 @@
 
 
 <VBox fx:controller="java2.unit4.Controller" xmlns:fx="http://javafx.com/fxml" alignment="center">
-    <stylesheets><URL value="@java2/unit4/css/Styles.css"/></stylesheets>
+    <stylesheets><URL value="@css/Styles.css"/></stylesheets>
     <TextArea fx:id="textArea" editable="false" VBox.vgrow="ALWAYS"/>
 
     <HBox fx:id="hbox">
