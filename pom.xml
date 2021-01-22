@@ -15,12 +15,18 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.8.1</version>
                 <configuration>
-                    <source>14</source>
-                    <target>14</target>
+                    <source>15</source>
+                    <target>15</target>
                 </configuration>
             </plugin>
         </plugins>
     </build>
+
+    <modules>
+        <module>Java-lvl-1</module>
+        <module>Java-lvl-2</module>
+        <module>Java-lvl-3</module>
+    </modules>
 
     <dependencies>
         <dependency>
@@ -47,7 +53,6 @@
             <artifactId>javafx-fxml</artifactId>
             <version>15.0.1</version>
         </dependency>
-
 
         <dependency>
             <groupId>org.xerial</groupId>
