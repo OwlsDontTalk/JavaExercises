@@ -1,0 +1,45 @@
+#btn {
+    -fx-background-color: #000;
+    -fx-background-image: url("../img/round-arrow_downward-24px.png");
+    -fx-max-width: 40px;
+    -fx-max-height: 40px;
+    -fx-background-size: 100% 100%;
+}
+
+.text-area {
+    -fx-font-family: Consolas;
+    -fx-highlight-fill: #00ff00;
+    -fx-highlight-text-fill: #000000;
+    -fx-text-fill: #00ff00;
+    -fx-background-color: #000000;
+    -fx-padding: 5px;
+    -fx-border-insets: 5px;
+    -fx-background-insets: 5px;
+}
+
+.text-area .content {
+    -fx-background-color: #000000;
+}
+
+#textField{
+
+    -fx-padding: 5px;
+    -fx-font-family: Roboto;
+    -fx-font-size: 15px;
+    -fx-highlight-fill: #00ff00;
+    -fx-highlight-text-fill: #000000;
+    -fx-text-fill: #00ff00;
+    -fx-background-color: #000000;
+}
+
+#text-field .content{
+    -fx-background-color: #000;
+}
+
+#hbox {
+    -fx-background-color: #000;
+    -fx-padding: 5px;
+    -fx-border-insets: 5px;
+    -fx-background-insets: 5px;
+}
+
